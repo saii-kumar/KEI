@@ -1,0 +1,245 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    /* height: 374vh;
+    width: 100vw; */
+    display: flex;
+    /* background-image: url(Luxury\ Yoga\ Retreats\ Crete\ _\ 5-Star\ Greece\ Holidays\ _\ Yoga\ Escapes.jpg);
+    background-size: cover;     
+    background-repeat: no-repeat;
+    background-position: center; */
+    background-color: rgb(50, 171, 208);
+    align-items: flex-start;
+    justify-content: center;
+}
+#container1{
+    height: 430vh;
+    width: 100vw;
+    /* background-color: rgb(10, 131, 238); */
+    background-color: white;
+    
+}
+header{
+    width: 100vw;
+    height: 17vh;
+   display: flex;
+   align-items: flex-start;
+  background-color: rgb(50, 171, 208);
+   
+}
+#im{
+    height: 17vh;
+    width: 10vw;
+    /* margin: 1px; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    /* background-color: aqua; */
+    
+}
+#KEI{
+    height: 10vh;
+    width: 7vw;
+
+    
+    /* background-color: antiquewhite; */
+    /* flex-direction: column; */
+    }
+    #can{
+        height: 100%;
+        width: 30vw;
+        /* background-color: aquamarine; */
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        flex-direction: column;
+    
+    }
+    .navi{
+        height: 7vh;
+        width: 100vw;
+        /* background-color: rgb(10, 148, 190); */
+        background-color: rgb(50, 171, 208);
+        display: flex;
+        align-items: center;
+        /* justify-content: 40px; */
+         /* gap: 1VW; */
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Dropdown button */
+        .dropdown button {
+            background-color: rgb(156, 200, 211); 
+            /* color: white; */
+            padding: 8px 10px;
+            font-size: 16px;
+            border: 1px solid rgb(53, 117, 181);
+            border-radius: 10px;
+            cursor: pointer;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.7);
+            /* box-shadow: 0px 0px 10px rgb(233, 0, 58),0px 0px 25px rgb(233, 0, 58),0px 0px 50px rgb(233, 0, 58),0px 0px 100px rgb(233, 0, 58); */
+            transition: 1   s all;
+            margin: 1vw;
+        }
+
+        .dropdown button:hover {
+            background-color: #1883ee;
+            border: none;
+            color:aliceblue;
+            box-shadow: 0px 0px 10px rgb(186, 233, 237),0px 0px 25px rgb(186, 233, 237),0px 0px 50px rgb(186, 233, 237),0px 0px 75px rgb(186, 233, 237),0px 0px 100px rgb(186, 233, 237);
+        }
+
+        /* Dropdown content */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: rgb(241, 235, 222);
+            min-width: 140px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            border-radius: 4px;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        /* Show dropdown content on button click */
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        #container2{
+                height: 285vh;
+                width: 100vw;
+                /* background-color: aqua; */
+        }
+        #container3{
+            height: 80vh;
+            width: 100vw;
+            /* background-color: aquamarine; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        #Rcon3{
+            height: 80vh;
+            width: 50vw;
+            /* background-color: rgb(50, 171, 208); */
+            display: flex;
+            align-items: center;
+            justify-content: fluxstart;
+        }
+        #Lcon3{
+            height: 80vh;
+            width: 50vw;
+            background-color:#f1f1f1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        #container4{
+            height: 80vh;
+            width: 100vw;
+            /* background-color: rgb(50, 171, 208); */
+            display: flex;
+            align-items: center;
+            justify-content: fluxstart;
+            padding: 3px;
+          
+        }
+        #Rcon4{
+            height: 80vh;
+            width: 50vw;
+            background-color: #f1f1f1;            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        #Lcon4{
+            height: 80vh;
+            width: 50vw;
+            /* background-color: rgb(140, 117, 189); */
+            display: flex;
+            align-items: center;
+            justify-content: fluxstart;
+        }
+        #container5{
+            height: 80vh;
+            width: 100vw;
+            /* background-color: rgb(184, 207, 101); */
+            display: flex;
+            align-items: center;
+            justify-content: fluxstart;
+        }
+        #Rcon5{
+            height: 80vh;
+            width: 50vw;
+            /* background-color: rgb(50, 171, 208); */
+            display: flex;
+            align-items: center;
+            justify-content: fluxstart;
+        }
+        #Lcon5{
+            height: 80vh;
+            width: 50vw;
+            background-color: #f1f1f1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        #container6{
+            height: 80vh;
+            width: 100vw;
+            background-color: rgb(184, 207, 101);
+            display: flex;
+            align-items: center;
+            justify-content: fluxstart;
+        }
+        #Rcon6{
+            height: 80vh;
+            width: 50vw;
+            background-color: #f1f1f1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        #Lcon6{
+            height: 80vh;
+            width: 50vw;
+            /* background-color: rgb(50, 171, 208); */
+            display: flex;
+            align-items: center;
+            justify-content: fluxstart;
+        } 
+        footer{
+            height: 30vh;
+            width: 100vw;
+            color: rgb(21, 55, 106);
+            background-color:rgb(50, 171, 208) ;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+       
+
+        
+        
